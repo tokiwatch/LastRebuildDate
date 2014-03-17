@@ -1,12 +1,12 @@
 id: lastrebuilddate
 key: MT::Plugin::LastRebuildDate
 name: LastRebuildDate
-version: 0.1
+version: 0.2
 description: <MT_TRANS phrase='description of LastRebuildDate'>
 author_name: Takuji Tokiwa
 author_link: https://github.com/tokiwatch
 l10n_class: LastRebuildDate::L10N
-schema_version: 0.01
+schema_version: 0.02
 object_types:
     last_rebuild_date.object: LastRebuildDate::Object
 callbacks:

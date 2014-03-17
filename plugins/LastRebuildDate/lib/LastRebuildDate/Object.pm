@@ -18,7 +18,7 @@ __PACKAGE__->install_properties ({
     datasource => 'last_rebuild_date',
     audit => 1,
     primary_key => 'id',
-    child_of    => 'SiteReporter::Object',
+    child_of    => 'MT::FileInfo',
 });
 
 1;
